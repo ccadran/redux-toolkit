@@ -48,6 +48,12 @@
       "year": "2021",
       "photo": "https://picsum.photos/400/470",
       "id": 9
+    },
+    {
+      "artist": "clario",
+      "year": "2023",
+      "photo": "https://picsum.photos/400/459",
+      "id": 10
     }
   ]
 }

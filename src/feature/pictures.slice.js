@@ -6,11 +6,14 @@ export const picturesSlice = createSlice({
     pictures: null,
   },
   reducers: {
-    setPicturesData: (state, action) => {
-      state.picture = action.payload;
+    setPicturesData: (state, { payload }) => {
+      state.pictures = payload;
+    },
+    addPicture: (state, { payload }) => {
+      state.pictures.push(payload);
     },
   },
 });
 
-export const { setPicturesData } = picturesSlice.actions;
+export const { setPicturesData, addPicture } = picturesSlice.actions;
 export default picturesSlice.reducer;
